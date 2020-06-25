@@ -12,7 +12,7 @@
 
   $server = "localhost";
   $username = "root";
-  $password = "BCPfTYVmtYtFTrPL";
+  $password = "";
   $con = mysqli_connect($server, $username, $password) or die("I couldn't connect to your database, please make sure your info is correct!");
   mysqli_select_db($con, "ums_dbase") or die("I couldn't find the database table make sure it's spelt right!");
   mysqli_query($con, "SET NAMES utf8");
